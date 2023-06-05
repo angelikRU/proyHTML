@@ -1,0 +1,84 @@
+.contac-information{
+	padding: 10px;
+	padding-top: 0;
+	margin-bottom: 30px;
+	border-bottom: 1px solid #DE423A;
+} 
+
+.ban_img{
+	width: 100;
+	height: 100px;
+	object-fit: cover;
+}
+.contac-information .column_title{
+font-family: 'Pacifico';
+font-weight: 100;
+}
+.contac-information[class*="icon"]{
+	font-size: 1.3em;
+	margin-right: 7px;
+	position: relative;
+	top: 5px;
+}
+
+.formulario {
+	padding: 10px;
+	padding-top: 0;
+}
+.formulario_label, .formulario_input-txt, .formulario_textarea{
+	display: block;
+	width: 50%;
+
+
+}
+
+.formulario_input-txt{
+	padding: 10px;
+	margin-bottom: 10px;
+	align-items: center;
+}
+
+.formulario_textarea{
+	min-height: 50px;
+	min-width: 50%;
+	max-width: 50%;
+	max-height: 100px;
+}
+.formulario_btn{
+	border: none;
+	font-size: 1em;
+
+}
+
+@media screen and (min-width: 480px){
+	.contact .container--flex{
+		align-items: flex-start;
+	}
+.contac-information p{
+	font-size: .75em;
+}	
+.contac-information {
+	border-right: 1px solid #DE423A;
+	border-bottom: none;
+
+}
+}
+@media screen and(min-width:768px){
+	.contac-information p{
+		font-size: 1em;
+	}
+	.contac-information .column_title{
+		font-size: 1.5em;
+	}
+
+}
+.btn{
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	width: 120px;
+	background: #DE423A;
+	color: white;
+	padding: 10px;
+	margin: 10px auto;
+}
