@@ -2,14 +2,17 @@
 <html lang="es">
 <head> 
 <meta charset="UTF-8">  
-<title>Nosotros| Huellitas</title>
+<title>Contacto| Huellitas</title>
 <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximun-scale=3.0, minimun-scale=1.0">
 <link rel="stylesheet"  href="css/estilos.css">
-<link rel="stylesheet"  href="css/ntros.css">
+
+<link rel="stylesheet"  href="css/contact.css">
 <link href="https://file.myfontastic.com/3E5wdVxcivixeTpiFSJR28/icons.css" rel="stylesheet">
 </head>
 
 <body>
+  
+
  <header class="main-header">
    <div class="container--flex">
        <div class="logo-container column column--50">
@@ -31,9 +34,9 @@
         <span class="icon-menu" id="btnmenu"></span>
       <ul class="menu" id="menu">
     <li class="menu_item"> <a href="index.html" class="menu_link">Inicio</a></li>
-    <li class="menu_item"> <a href="nosot.html" class="menu_link menu_link--select">Trabaje con Nosotros</a></li> 
+    <li class="menu_item"> <a href="nosot.html" class="menu_link">Trabaje con Nosotros</a></li> 
     <li class="menu_item"> <a href="prod.html" class="menu_link">Productos</a></li>
-    <li class="menu_item"> <a href="contact.html" class="menu_link">Contacto</a></li>
+    <li class="menu_item"> <a href="contact.html" class="menu_link menu_link--select">Contacto</a></li>
     </ul>
       <div class="social-icon">
         <a href="" class="social-icon_link"><span class="icon-facebook"></span></a>   
@@ -44,39 +47,43 @@
 </nav>
 
 <section class="banner">
-  <img src="img/prodt/medico.png" alt="" class="banner_img"></img>
-  <div class="banner_content">UNETE A NUESTRA FAMILIA</div>
+  <img src="img/prodt/mensaj.png" alt="" class="banner_img"></img>
+  <div class="banner_content">Nos comunicaremos contigo para darte la mejor solución </div>
 </section>
 
 <main class="main">
-  <section class="group group--color">
-    <div class="container">
-      <h2 class="main_title">En Huellitas el bienestar de tu mascota es lo más importante</h2> 
-        <p class="main_txt">Aquí encontraras la mejor atencion para tu amigo.</p>
-      </div>
-  </section>
+  <section class="group contact"> 
+  <h2 class="group_title">Deja tu Mensaje</h2> 
+  <div class="container container--flex"> 
+    <div class="contact-information column column--50"> 
+      <h3 class="column_title">Información de Contacto</h3>
+        <p class="column_txt">En huellitas contamos con el mejor personal y la mejor experiencia en atencion y servicio.Forma parte de neuestro equipo.</p>  
+        <p class="column_txt"><span class="icon-phone"></span>telefono 018000 42 56</p>
+        <p class="column_txt"><span class="icon-phone"></span>fax 123456</p> 
+        <p class="column_txt"><span class="icon-location"></span>centro Ccial las Americas local23</p>
+         <p class="column_txt"><span class="icon-mail"></span>consultas@huellitas.com</p>
 
-  <section class="group out-team"> 
-    <h2 class="group_title">Nuestro Equipo</h2>
-    <div class="container container--flex">
-      <div class="column column--33">
-      <h3 class="our-team_title">Especialistas en Nutrición</h3> 
-      <img src="img/nutric.png" alt="" class="our-team_img">
-      <p class="our-team_txt">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus voluptate optio molestiae cum tempora accusantium nam, amet vero voluptatibus, nobis, nisi soluta hic, maiores praesentium sit eum fuga dicta </p>
-      </div>
-      <div class="column column--33">
-      <h3 class="our-team_title">Especialistas en Atencion Médica</h3> 
-      <img src="img/atencion.png" alt="" class="our-team_img">
-      <p class="our-team_txt">Lorem ipsum dolor sit amet consectetur adipisicing, elit. Dolorem minus cumque adipisci aliquid. Quisquam quasi suscipit assumenda libero voluptatem reprehenderit rerum nulla obcaecati adipisci error, mollitia repellat fuga qui iusto.</p>
-      </div>
-      <div class="column column--33">
-      <h3 class="our-team_title">Especialistas Entrenamiento</h3> 
-       <img src="img/entren.png" alt="" class="our-team_img">
-      <p class="our-team_txt">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus esse, dolore, in ut, fuga aspernatur dolor totam nesciunt, optio omnis eaque ex facilis sunt deleniti. Voluptas modi illum quibusdam culpa.</p>
-      </div>  
-     </div>  
+         <div class="social-icon">
+        <a href="" class="social-icon_link"><span class="icon-facebook"></span></a>   
+        <a href="" class="social-icon_link"><span class="icon-twitter"></span></a>
+        <a href="" class="social-icon_link"><span class="icon-mail"></span></a> 
+        </div> 
+     </div>
+     <form action=""  method="post"  class="formulario column column--50">
+        <label for=""  class="formulario_label">Nombre</label>
+        <input type="text" class="formulario_input-txt" name="nombre"> 
+        <label for=""  class="formulario_label">correo</label>
+        <input type="text" class="formulario_input-txt" name="correo">
+        <label for=""  class="formulario_label">telefono</label>
+        <input type="text" class="formulario_input-txt" name="telefono">
+        <label for=""  class="formulario_label">Mensaje</label>
+        <textarea name="mensaje" id="" cols="30" rows="10" class="formulario_textarea">
+        </textarea>
+        <input type="submit" class="btn formulario_btn" value="enviar">
+     </form>
+   </div>
+</section>
 
-  </section>
 
 </main>
 
@@ -104,5 +111,6 @@
   </div>
 </footer>
 <script type="text/javascript" src="js/menu.js"></script>
+<script type="text/javascript" src="js/modal.js"></script>
 </body>
 </html>

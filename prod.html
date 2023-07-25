@@ -2,14 +2,21 @@
 <html lang="es">
 <head> 
 <meta charset="UTF-8">  
-<title>Nosotros| Huellitas</title>
+<title>Productos| Huellitas</title>
 <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximun-scale=3.0, minimun-scale=1.0">
 <link rel="stylesheet"  href="css/estilos.css">
-<link rel="stylesheet"  href="css/ntros.css">
+<link rel="stylesheet"  href="css/product.css">
 <link href="https://file.myfontastic.com/3E5wdVxcivixeTpiFSJR28/icons.css" rel="stylesheet">
 </head>
 
 <body>
+  <div class="modal" id="modal">
+    <div class="modal_content">
+      <img src="" alt="" class="modal_img" id="modal_img">
+     </div>
+     <div class="modal_boton" id="modal_boton">x</div>
+  </div>
+
  <header class="main-header">
    <div class="container--flex">
        <div class="logo-container column column--50">
@@ -31,8 +38,8 @@
         <span class="icon-menu" id="btnmenu"></span>
       <ul class="menu" id="menu">
     <li class="menu_item"> <a href="index.html" class="menu_link">Inicio</a></li>
-    <li class="menu_item"> <a href="nosot.html" class="menu_link menu_link--select">Trabaje con Nosotros</a></li> 
-    <li class="menu_item"> <a href="prod.html" class="menu_link">Productos</a></li>
+    <li class="menu_item"> <a href="nosot.html" class="menu_link">Trabaje con Nosotros</a></li> 
+    <li class="menu_item"> <a href="prod.html" class="menu_link menu_link--select">Productos</a></li>
     <li class="menu_item"> <a href="contact.html" class="menu_link">Contacto</a></li>
     </ul>
       <div class="social-icon">
@@ -44,39 +51,33 @@
 </nav>
 
 <section class="banner">
-  <img src="img/prodt/medico.png" alt="" class="banner_img"></img>
-  <div class="banner_content">UNETE A NUESTRA FAMILIA</div>
+  <img src="img/prodt/prod.png" alt="" class="banner_img"></img>
+  <div class="banner_content">Tenemos los mejores productos para tu amigo</div>
 </section>
 
 <main class="main">
-  <section class="group group--color">
-    <div class="container">
-      <h2 class="main_title">En Huellitas el bienestar de tu mascota es lo más importante</h2> 
-        <p class="main_txt">Aquí encontraras la mejor atencion para tu amigo.</p>
-      </div>
-  </section>
-
-  <section class="group out-team"> 
-    <h2 class="group_title">Nuestro Equipo</h2>
+  <div class="group gallery">
+    <h2 class="group_title">Nuestros Productos</h2>
     <div class="container container--flex">
-      <div class="column column--33">
-      <h3 class="our-team_title">Especialistas en Nutrición</h3> 
-      <img src="img/nutric.png" alt="" class="our-team_img">
-      <p class="our-team_txt">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus voluptate optio molestiae cum tempora accusantium nam, amet vero voluptatibus, nobis, nisi soluta hic, maiores praesentium sit eum fuga dicta </p>
+      <div class="column column--50-25">
+      <img src="img/prodt/maz.png" alt="" class="gallery_img gallery_img-big">
+      <img src="img/prodt/cuid.png" alt="" class="gallery_img gallery_img-small">
       </div>
-      <div class="column column--33">
-      <h3 class="our-team_title">Especialistas en Atencion Médica</h3> 
-      <img src="img/atencion.png" alt="" class="our-team_img">
-      <p class="our-team_txt">Lorem ipsum dolor sit amet consectetur adipisicing, elit. Dolorem minus cumque adipisci aliquid. Quisquam quasi suscipit assumenda libero voluptatem reprehenderit rerum nulla obcaecati adipisci error, mollitia repellat fuga qui iusto.</p>
+      <div class="column column--50-25">
+        <img src="img/prodt/maquin.png" alt="" class="gallery_img gallery_img-small">
+      <img src="img/prodt/pat.png" alt="" class="gallery_img gallery_img-big">
       </div>
-      <div class="column column--33">
-      <h3 class="our-team_title">Especialistas Entrenamiento</h3> 
-       <img src="img/entren.png" alt="" class="our-team_img">
-      <p class="our-team_txt">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus esse, dolore, in ut, fuga aspernatur dolor totam nesciunt, optio omnis eaque ex facilis sunt deleniti. Voluptas modi illum quibusdam culpa.</p>
-      </div>  
-     </div>  
-
-  </section>
+      <div class="column column--50-25">
+       <img src="img/prodt/pein.png" alt="" class="gallery_img gallery_img-big">
+      <img src="img/prodt/pet.png" alt="" class="gallery_img gallery_img-small">
+      </div>
+      <div class="column column--50-25">
+       <img src="img/prodt/ring.png" alt="" class="gallery_img gallery_img-small">
+       <img src="img/prodt/shamp.png" alt="" class="gallery_img gallery_img-big">
+      </div>
+    </div>
+  </div>
+  
 
 </main>
 
@@ -104,5 +105,6 @@
   </div>
 </footer>
 <script type="text/javascript" src="js/menu.js"></script>
+<script type="text/javascript" src="js/modal.js"></script>
 </body>
 </html>
