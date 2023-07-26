@@ -2,7 +2,10 @@
 .group_title{
 	padding: 10px ;
 }
-
+.banner_img {
+	width: 100%;
+	object-fit: cover;
+}
 .contact-information  {
  padding: 10px;
  padding-top: 0;

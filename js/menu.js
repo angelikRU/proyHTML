@@ -6,14 +6,6 @@
   mostrar/ocultar el menú cuando se hace clic en el botón.*/
 
 
-
-/*let btnMenu = document.getElemtById('btnmenu');
-let menu = document.getElemtById('menu');
-btnMenu.btnMenuaddEventListener('click', function(){
-	'use strict';
-menu.classList.toogle('mostrar');
-});
-*/
 document.getElementById("btnmenu").addEventListener("click", function(){/*Agregar un evento de clic al elemento con el identificador "btnmenu"*/
 "use strict";
 document.getElementById("menu").classList.toggle("mostrar");

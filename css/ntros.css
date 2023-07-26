@@ -12,7 +12,11 @@
 	font-size: 1.2em;
 	margin-bottom: 10px;
 }
+.banner_img {
+	width: 100%;
 
+	object-fit: cover;
+}
 .our-team_img{
 	width: 200px;
 	height: 200px;
